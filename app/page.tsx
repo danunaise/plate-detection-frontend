@@ -7,12 +7,16 @@ export default function Home() {
     <div>
       <div className="min-h-screen bg-gray-100">
         {/* Search Bar */}
-        <SearchBar />
 
         {/* Table */}
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto">
           <Table />
         </div>
+        <footer>
+          <div className="container mx-auto text-center py-4 text-gray-500">
+            <p>© 2021 Plate detection Make with Danunai and Pichit</p>
+          </div>
+        </footer>
       </div>
     </div>
   );
