@@ -138,7 +138,7 @@ const Table: React.FC = () => {
       </div>
 
       {/* Pagination Controls */}
-      <div className="flex justify-between my-3 items-center mx-52">
+      <div className="flex justify-between my-3 items-center mx-2 xl:mx-52">
         <div className="text-sm">
           <span>Total: <strong>{totalItems}</strong></span>
         </div>
